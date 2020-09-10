@@ -1,0 +1,4 @@
+# Ignore sublime project and workspace files
+*.sublime-*
+
+.eslintrc.js
