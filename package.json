@@ -6,7 +6,7 @@
   "bin": "./cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "jsdoc2md --template README.hbs index.js > README.md",
+    "docs": "jsdoc2md --template template.hbs index.js > README.md",
     "lint": "eslint ."
   },
   "repository": {
