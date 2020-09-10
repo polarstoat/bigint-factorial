@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Tiny factorial function using BigInt",
   "main": "index.js",
+  "bin": "./cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "jsdoc2md --template README.hbs index.js > README.md"
@@ -26,5 +27,8 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "jsdoc-to-markdown": "^6.0.1"
+  },
+  "dependencies": {
+    "meow": "^7.1.1"
   }
 }
