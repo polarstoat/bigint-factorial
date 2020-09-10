@@ -15,7 +15,7 @@
     "Factorial"
   ],
   "author": "Polar stoat <polarstoat@users.noreply.github.com> (https://github.com/polarstoat)",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/polarstoat/bigint-factorial/issues"
   },
