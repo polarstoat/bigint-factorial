@@ -11,6 +11,10 @@ Calculate the factorial of `n`
 
 **Kind**: global function  
 **Returns**: <code>BigInt</code> - The factorial of the passed number  
+**Throws**:
+
+- <code>TypeError</code> If n is not of type 'bigint'
+
 
 | Param | Type | Description |
 | --- | --- | --- |
