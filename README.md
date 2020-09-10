@@ -4,7 +4,18 @@
 
 ## Usage
 
-{{>main}}
+<a name="factorial"></a>
+
+## factorial(n) ⇒ <code>BigInt</code>
+Calculate the factorial of `n`
+
+**Kind**: global function  
+**Returns**: <code>BigInt</code> - The factorial of the passed number  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| n | <code>BigInt</code> | The number to calculate the factorial of |
+
 
 ### Requirements
 
