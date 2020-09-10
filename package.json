@@ -1,6 +1,6 @@
 {
   "name": "bigint-factorial",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tiny factorial function using BigInt",
   "main": "index.js",
   "bin": "./cli.js",
