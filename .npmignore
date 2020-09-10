@@ -2,3 +2,5 @@
 *.sublime-*
 
 .eslintrc.js
+
+template.hbs
