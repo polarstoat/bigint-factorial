@@ -4,12 +4,11 @@
 
 ## Usage
 
-<a name="factorial"></a>
+<a name="module_bigint-factorial"></a>
 
-## factorial(n) ⇒ <code>BigInt</code>
+## bigint-factorial ⇒ <code>BigInt</code>
 Calculate the factorial of `n`
 
-**Kind**: global function  
 **Returns**: <code>BigInt</code> - The factorial of the passed number  
 **Throws**:
 

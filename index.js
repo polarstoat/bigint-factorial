@@ -3,6 +3,7 @@
  *
  * @param  {BigInt} n The number to calculate the factorial of
  * @throws {TypeError} If n is not of type 'bigint'
+ * @module bigint-factorial
  * @return {BigInt}   The factorial of the passed number
  */
 function factorial(n) {
