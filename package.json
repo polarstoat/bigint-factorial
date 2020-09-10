@@ -1,0 +1,23 @@
+{
+  "name": "bigint-factorial",
+  "version": "1.0.0",
+  "description": "Tiny factorial function using BigInt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polarstoat/bigint-factorial.git"
+  },
+  "keywords": [
+    "BigInt",
+    "Factorial"
+  ],
+  "author": "Polar stoat <polarstoat@users.noreply.github.com> (https://github.com/polarstoat)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/polarstoat/bigint-factorial/issues"
+  },
+  "homepage": "https://github.com/polarstoat/bigint-factorial#readme"
+}
