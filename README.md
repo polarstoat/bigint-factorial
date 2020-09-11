@@ -1,10 +1,14 @@
 # bigint-factorial
 
+![npm](https://img.shields.io/npm/v/bigint-factorial)
+![David](https://img.shields.io/david/polarstoat/bigint-factorial)
+![GitHub](https://img.shields.io/github/license/polarstoat/bigint-factorial)
+
 > Tiny factorial function using JavaScript's built-in [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
 
 ## Usage
 
-1. Install via npm
+1. Install via [npm](https://www.npmjs.com/package/bigint-factorial)
 
    ```sh
    npm install bigint-factorial
