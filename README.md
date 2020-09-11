@@ -30,10 +30,10 @@
 
 <a name="module_bigint-factorial"></a>
 
-#### bigint-factorial ⇒ <code>BigInt</code>
+#### bigint-factorial ⇒ <code>bigint</code>
 Calculate the factorial of n
 
-**Returns**: <code>BigInt</code> - The factorial of the passed number  
+**Returns**: <code>bigint</code> - The factorial of the passed number  
 **Throws**:
 
 - <code>TypeError</code> If n is not of type 'bigint'
@@ -41,7 +41,7 @@ Calculate the factorial of n
 
 | Param | Type | Description |
 | --- | --- | --- |
-| n | <code>BigInt</code> | The number to calculate the factorial of |
+| n | <code>bigint</code> | The number to calculate the factorial of |
 
 
 

@@ -1,9 +1,9 @@
 /**
  * Calculate the factorial of n
  *
- * @param  {BigInt} n The number to calculate the factorial of
+ * @param  {bigint} n The number to calculate the factorial of
  * @throws {TypeError} If n is not of type 'bigint'
- * @return {BigInt}   The factorial of the passed number
+ * @return {bigint}   The factorial of the passed number
  * @module bigint-factorial
  */
 function factorial(n) {
