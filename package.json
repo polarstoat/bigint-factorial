@@ -3,7 +3,6 @@
   "version": "1.0.4",
   "description": "Tiny factorial function using BigInt",
   "main": "index.js",
-  "bin": "./cli.js",
   "scripts": {
     "test": "jest",
     "docs": "jsdoc2md --template template.hbs index.js > README.md",
@@ -33,7 +32,5 @@
     "jsdoc-to-markdown": "^6.0.1",
     "standard-version": "^9.0.0"
   },
-  "dependencies": {
-    "meow": "^7.1.1"
-  }
+  "dependencies": {}
 }
