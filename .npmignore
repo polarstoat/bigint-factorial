@@ -1,9 +1,0 @@
-# Ignore sublime project and workspace files
-*.sublime-*
-
-.eslintrc.js
-
-template.hbs
-
-# Jest test files
-*.test.js
