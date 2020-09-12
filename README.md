@@ -1,6 +1,7 @@
 # bigint-factorial
 
 ![npm](https://img.shields.io/npm/v/bigint-factorial)
+![npm bundle size](https://img.shields.io/bundlephobia/min/bigint-factorial)
 ![David](https://img.shields.io/david/polarstoat/bigint-factorial)
 ![GitHub](https://img.shields.io/github/license/polarstoat/bigint-factorial)
 
