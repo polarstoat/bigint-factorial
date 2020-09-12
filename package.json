@@ -19,7 +19,10 @@
   },
   "keywords": [
     "BigInt",
-    "Factorial"
+    "Factorial",
+    "Math",
+    "Probability",
+    "Statistics"
   ],
   "author": "Polar stoat <polarstoat@users.noreply.github.com> (https://github.com/polarstoat)",
   "license": "MIT",
