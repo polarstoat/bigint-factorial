@@ -4,10 +4,10 @@
   "description": "Tiny factorial function using BigInt",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "npm run lint && jest",
     "docs": "jsdoc2md --template template.hbs index.js > README.md",
     "release": "standard-version",
-    "prerelease": "npm run lint && npm run docs && npm run test",
+    "prerelease": "npm run docs && npm run test",
     "lint": "eslint ."
   },
   "engines": {
