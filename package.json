@@ -10,6 +10,9 @@
     "prerelease": "npm run lint && npm run docs && npm run test",
     "lint": "eslint ."
   },
+  "engines": {
+    "node": ">=10.22.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/polarstoat/bigint-factorial.git"
