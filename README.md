@@ -63,8 +63,6 @@ Calculate the factorial of n
 | --- | --- | --- |
 | n | <code>bigint</code> | The number to calculate the factorial of |
 
-
-
 ## System requirements
 
 - [Node.js](https://nodejs.org/en/) `v10.22.0`
