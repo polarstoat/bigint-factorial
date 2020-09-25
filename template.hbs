@@ -7,6 +7,13 @@
 
 > Tiny factorial function using JavaScript's built-in [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
 
+Factorials get very big, very quickly. Older packages for calculating them that use the `Number` primitive internally suffer the following issues:
+
+- **Subject to imprecision at factorials larger than 18** (at which point they surpass `Number.MAX_SAFE_INTEGER`)
+- **Return `Infinity` at factorials larger than 170** (at which point they surpass `Number.MAX_VALUE`)
+
+This package avoids these by dealing exclusively with the `BigInt` primitive.
+
 ## Installation
 
 Install with [npm](https://www.npmjs.com/package/bigint-factorial) (or [Yarn](https://yarnpkg.com/package/bigint-factorial))
