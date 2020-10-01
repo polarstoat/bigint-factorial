@@ -1,5 +1,19 @@
 const factorial = require('.');
 
+describe('BigInt is available', () => {
+  test('as standard built-in object', () => {
+    expect(typeof BigInt).toBe('function');
+  });
+
+  test('using constructor (e.g. BigInt(1) )', () => {
+    expect(typeof BigInt(1)).toBe('bigint');
+  });
+
+  test('as integer literal (e.g. 1n)', () => {
+    expect(typeof 1n).toBe('bigint');
+  });
+});
+
 test('0! to equal 1', () => {
   expect(factorial(0n)).toBe(1n);
 });
