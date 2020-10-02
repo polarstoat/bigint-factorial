@@ -43,7 +43,7 @@ describe('Factorial calculation of', () => {
 test('throw a TypeError if argument not a bigint', () => {
   expect(() => {
     factorial('foobar');
-  }).toThrow(TypeError);
+  }).toThrow("Expected parameter type of 'bigint' for n");
 });
 
 test('throw a RangeError if input less than 0', () => {
