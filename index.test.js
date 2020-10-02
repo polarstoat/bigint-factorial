@@ -45,3 +45,9 @@ test('throw a TypeError if argument not a bigint', () => {
     factorial('foobar');
   }).toThrow(TypeError);
 });
+
+test('throw a RangeError if input less than 0', () => {
+  expect(() => {
+    factorial(-7n);
+  }).toThrow('Cannot compute the factorial of a negative integer');
+});
