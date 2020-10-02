@@ -57,6 +57,7 @@ Calculate the factorial of n
 **Throws**:
 
 - <code>TypeError</code> If n is not of type 'bigint'
+- <code>RangeError</code> If n is negative
 
 
 | Param | Type | Description |
