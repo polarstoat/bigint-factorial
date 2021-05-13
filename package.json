@@ -33,12 +33,12 @@
   },
   "homepage": "https://github.com/polarstoat/bigint-factorial#readme",
   "devDependencies": {
-    "eslint": "^7.8.1",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "jest": "^26.4.2",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
     "jsdoc-to-markdown": "^6.0.1",
-    "standard-version": "^9.0.0"
+    "standard-version": "^9.3.0"
   },
   "dependencies": {}
 }
