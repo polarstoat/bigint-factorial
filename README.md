@@ -66,8 +66,8 @@ Calculate the factorial of n
 
 ## System requirements
 
-- [Node.js](https://nodejs.org/en/) `v10.22.0`
-- [npm](https://www.npmjs.com) `v6.14.6`
+- [Node.js](https://nodejs.org/en/) `v10.24.1`
+- [npm](https://www.npmjs.com) `v6.14.12`
 
 This project has been tested and confirmed to work on the above versions.
 
