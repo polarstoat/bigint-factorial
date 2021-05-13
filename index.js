@@ -5,7 +5,7 @@
  * @throws {TypeError} If n is not of type 'bigint'
  * @throws {RangeError} If n is negative
  * @return {bigint}   The factorial of the passed number
- * @module bigint-factorial
+ * @module factorial
  */
 function factorial(n) {
   if (typeof n !== 'bigint') throw new TypeError(`Expected parameter type of 'bigint' for n; instead got '${typeof n}'`);

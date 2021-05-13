@@ -48,9 +48,9 @@ npm i bigint-factorial
 
 ## API reference
 
-<a name="module_bigint-factorial"></a>
+<a name="module_factorial"></a>
 
-### bigint-factorial ⇒ <code>bigint</code>
+### factorial ⇒ <code>bigint</code>
 Calculate the factorial of n
 
 **Returns**: <code>bigint</code> - The factorial of the passed number  
