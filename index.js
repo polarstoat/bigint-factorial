@@ -4,7 +4,7 @@
  * @param  {bigint} n The number to calculate the factorial of
  * @throws {TypeError} If n is not of type 'bigint'
  * @throws {RangeError} If n is negative
- * @return {bigint}   The factorial of the passed number
+ * @return {bigint} The factorial of n
  * @module factorial
  */
 function factorial(n) {
