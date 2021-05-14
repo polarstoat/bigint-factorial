@@ -7,12 +7,12 @@
 
 > Tiny factorial function using JavaScript's built-in [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
 
-Factorials get very big, very quickly. Older packages for calculating them that use the `Number` primitive internally suffer the following issues:
+Factorials get very big, very quickly. Older packages for calculating them that use the `number` primitive internally suffer the following issues:
 
 - **Subject to imprecision at factorials larger than 18** (at which point they surpass `Number.MAX_SAFE_INTEGER`)
 - **Return `Infinity` at factorials larger than 170** (at which point they surpass `Number.MAX_VALUE`)
 
-This package avoids these by dealing exclusively with the `BigInt` primitive.
+This package avoids these by dealing exclusively with the `bigint` primitive.
 
 ## Installation
 
@@ -53,7 +53,7 @@ npm i bigint-factorial
 ### factorial ⇒ <code>bigint</code>
 Calculate the factorial of n
 
-**Returns**: <code>bigint</code> - The factorial of the passed number  
+**Returns**: <code>bigint</code> - The factorial of n  
 **Throws**:
 
 - <code>TypeError</code> If n is not of type 'bigint'
@@ -69,6 +69,6 @@ Calculate the factorial of n
 - [Node.js](https://nodejs.org/en/) `v10.24.1`
 - [npm](https://www.npmjs.com) `v6.14.12`
 
-This project has been tested and confirmed to work on the above versions.
+This package has been tested and confirmed to work on the above versions.
 
-`BigInt` was [added to Node.js in `v10.4.0`](https://nodejs.org/en/blog/release/v10.4.0/) with [V8 release `v6.7`](https://v8.dev/blog/v8-release-67), therefore this project won't work in Node.js versions earlier than `v10.4.0`.
+BigInt was [added to Node.js in `v10.4.0`](https://nodejs.org/en/blog/release/v10.4.0/) with [V8 release `v6.7`](https://v8.dev/blog/v8-release-67), therefore this package won't work in Node.js versions earlier than `v10.4.0`.
