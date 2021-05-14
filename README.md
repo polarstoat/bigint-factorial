@@ -14,7 +14,7 @@ Factorials get very big, very quickly. Older packages for calculating them that 
 
 This package avoids these by dealing exclusively with the `bigint` primitive.
 
-## Installation
+## Install
 
 Install with [npm](https://www.npmjs.com/package/bigint-factorial) (or [Yarn](https://yarnpkg.com/package/bigint-factorial))
 
@@ -48,7 +48,7 @@ npm i bigint-factorial
    // ↪︎ 1211079010624906224171770242040000913194755344907123328387229208384122199143398983962077168073033852647945203036376445283346314711222230177466494273255728793463071956674839497876987299889729720327479783667584731115257659422804284707863129430806869565563037239578516564219715854442393339376435200000000000000000000000000000000000000000000n
    ```
 
-## API reference
+## API
 
 <a name="module_factorial"></a>
 
