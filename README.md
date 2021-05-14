@@ -27,6 +27,8 @@ npm i bigint-factorial
 1. Import the package
 
    ```js
+   import factorial from 'bigint-factorial';
+   // or
    const factorial = require('bigint-factorial');
    ```
 
